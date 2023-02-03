@@ -1,0 +1,110 @@
+
+.main{
+    position: relative;
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+.main:after{
+    content:'';
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background: linear-gradient(to top, #200016,transparent);
+ 
+}
+.main img{
+    position:absolute;
+    width: 100%; 
+    height: 100vh;
+    object-fit: cover;
+    
+}
+#moon{
+    mix-blend-mode: screen;
+    transform: translateY(80px);
+}
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background:linear-gradient(#200016,#10001f);
+    height: 100pc;
+    font-family: system-ui;
+}
+
+a{
+    text-decoration: none;
+    color:#fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+header .logo{
+    font-size: 30px;
+    text-transform: uppercase;
+
+}
+
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li{
+    margin: 30px;
+}
+header ul li a{
+    padding: 6px 15px;
+    border-radius: 20px; 
+}
+
+header ul li a:hover, .numper{
+    background: #fff;
+    color: #200016;
+}
+
+.take{
+    color: #fff;
+    font-family: system-ui;
+    
+    
+}
+
+
+.myself{
+    color: #fff;
+    font-family: system-ui ;
+}
+.div2{
+  padding: 10px;
+}
+
+.instagram{
+    color: #fff;
+    height: 30px;
+    background:linear-gradient(#55013a,#8800ff);
+
+   border: solid black ;
+   
+        
+}
+
+
+ 
